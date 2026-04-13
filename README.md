@@ -90,7 +90,7 @@ docker compose logs -f
 O container está configurado com política de reinício automático:
 
 ```yaml
-restart: unless-stopped
+restart: always
 ```
 
 Isso garante que ele será reiniciado automaticamente em caso de falha.
