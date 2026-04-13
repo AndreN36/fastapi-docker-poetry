@@ -16,7 +16,7 @@ Antes de começar, você precisa ter instalado:
 ## 📥 Como clonar o repositório
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/AndreN36/fastapi-docker-poetry.git
 cd fastapi-docker-poetry
 ```
 
