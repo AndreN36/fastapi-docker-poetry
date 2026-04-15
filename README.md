@@ -52,7 +52,7 @@ O projeto utiliza volume Docker para sincronizar o código local com o container
 
 ```yaml
 volumes:
-  - ./app:/app
+  - ./app:/app/app
 ```
 
 Isso permite que alterações no código sejam refletidas automaticamente.
