@@ -52,7 +52,7 @@ O projeto utiliza volume Docker para sincronizar o código local com o container
 
 ```yaml
 volumes:
-  - ./app:/app/app
+  - ./app:/app
 ```
 
 Isso permite que alterações no código sejam refletidas automaticamente.
@@ -102,7 +102,7 @@ Isso garante que ele será reiniciado automaticamente em caso de falha.
 ```text
 fastapi-docker-poetry/
 ├── app/
-│   └── pokedex.py
+│   └── main.py
 ├── Dockerfile
 ├── docker-compose.yml
 ├── pyproject.toml
